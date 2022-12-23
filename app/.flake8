@@ -1,0 +1,19 @@
+; Description: flake8 configuration file
+
+
+[flake8]
+
+exclude=
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py,
+    wsgi.py,
+    asgi.py,
+    urls.py,
+    apps.py,
+    admin.py,
+    serializers.py,
+    models.py,
+    views.py,
+    tests.py
