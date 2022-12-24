@@ -3,7 +3,7 @@
 Django command to wait for db to be available
 """
 
-import time 
+import time
 from psycopg2 import OperationalError as Psycopg2OperationalError
 from django.db.utils import OperationalError
 from django.core.management.base import BaseCommand
